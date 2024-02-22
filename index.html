@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">Aniket <span>Raut</span></a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Aniket</span></h1>
+            <h3 class="text-animation">
+                I'm a <span></span>
+            </h3>
+            <p>Skilled and detail-oriented Software Developer with 2 years of experience in Agile methodologies development environment.</p>
+            
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/aniket-raut-44085a159" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/its_aniket10r/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/Aniket228" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+
+            <a href="mailto:aniketraut228@gmail.com" class="btn">HIRE
+                <i class="fa-solid fa-briefcase"></i>
+            </a>
+        </div>
+
+        <div class="home-img">
+            <img src="1708248868255.jpg" alt="">
+        </div>  
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+        <div class="service-container">
+            <div class="service-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>Frontend Development</h3>
+                <p>Good experience of working with HTML, CSS, Javascript and DOM Manipulation.<br>Knowledge of ReactJS framework.<br>Good knowledge of  Bootstrap and Tailwind CSS.</p>
+                <a href="https://www.w3schools.com/whatis/whatis_frontenddev.asp" class="btn">Learn More</a>
+            </div>
+
+            <div class="service-box">
+                <i class="fa-solid fa-server"></i>
+                <h3>Backend Development</h3>
+                <p>Strong knowledge of OOPs concept.<br> Good knowledge of Spring, Hibernate, RESTful API and Spring Security in Java EE.<br> Knowledge of MySQL and Mongo DB.</p>
+                <a href="https://www.coursera.org/articles/back-end-developer" class="btn">Learn More</a>
+            </div>
+
+            <div class="service-box">
+                <i class="fa-solid fa-cloud"></i>
+                <h3>AWS Cloud</h3>
+                <p>Strong knowledge of EC2, VPC, Subnet, NACL, IGW, Route tables ELB, Auto scaling configurations, SNS, Security groups and allowing inbound/outbound rules. Good knowledge of S3 Bucket and Lifecycle Management.</p>
+                <a href="https://docs.aws.amazon.com/whitepapers/latest/aws-overview/what-is-cloud-computing.html" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="projects-container">
+            <div class="projects-box">
+                <img src="Image1.jpg" alt="">
+                <div class="projects-info">
+                    <h4>Web Development</h4>
+                    <p>Created few clones of popular websites using ReactJS.</p>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <img src="Image2.jpg" alt="">
+                <div class="projects-info">
+                    <h4>Web Design</h4>
+                    <p>Made a few portfolio pages using HTML, CSS and JavaScript with the help of Bootstrap and Tailwind CSS.. </p>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <img src="Image3.jpg" alt="">
+                <div class="projects-info">
+                    <h4>Backend Development</h4>
+                    <p>Created web apps using Java concepts of Spring, Hibernate and Restful APIs using MVC design paradigm.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="timeline-section" id="education">
+        <h2 class="heading">Education</h2>
+
+        <div class="timeline-items">
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2020</div>
+                <div class="timeline-content">
+                    <h3>University</h3>
+                    <p>Completed my Bachelor's Degree form Savitribai Phule Pune University.</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2020</div>
+                <div class="timeline-content">
+                    <h3>Job - GlobalStep</h3>
+                    <p>Involved in building and updating a responsive web application that can facilitate end-user
+                        support, and help in realizing insights via data visualization techniques.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2023</div>
+                <div class="timeline-content">
+                    <h3>Full Stack Software Development</h3>
+                    <p>Successfully completed the course of Advanced Certificate Program in Full Stack Software Development from IIT Roorkee.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact Me</h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/aniket-raut-44085a159"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/its_aniket10r/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/Aniket228"><i class="fa-brands fa-github"></i></a>
+            <a href="https://eportfolio.mygreatlearning.com/aniket-raut"><i class="fa-solid fa-id-card"></i></a>
+        </div>
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="#home">About Me</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+            <li>
+                <a href="#">Privacy Policy</a>
+            </li>
+        </ul>
+        <p class="copyright"> © Aniket Raut | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
